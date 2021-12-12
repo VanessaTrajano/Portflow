@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+header{
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+}
+h1{
+    font-weight: 900;
+    font-size: 2.5vw;
+}
+nav ul{
+    width: 35vw;
+    height: 1.5vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3vw;
+}
+nav ul li:hover{
+    font-weight: 900;
+    cursor: pointer;
+}
+main{
+    padding-top: 5vw;
+    color: #fff;
+}
+.blue-orange{
+    width: 98.7vw;
+    height: 40vw;
+    position: relative;
+    background-image: url("/img/laranja-azul.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 40vw;
+}
+.blue-orange h2{
+    position: absolute;
+    font-size: 4.3vw;
+    left: 7vw;
+    top: 14vw;
+}
+.blue-orange p{
+    font-size: 2vw;
+    position: absolute;
+    top: 22vw;
+    left: 7vw;
+}
+.fotinhas{
+    height: 75vw;
+    width: 98.7vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3vw;
+}
+.fotinhas img{
+    width: 23vw;
+    height: 23vw;
+    margin-top: 2vw;
+}
+footer{
+    width: 98.7vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3vw;
+}
+.redes-sociais{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.redes-sociais img{
+    height: 2vw;
+    width: 2vw;
+}
+.referencias{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.referencias h2{
+    font-size: 1.9vw;
+}
+.referencias p{
+    font-size: 1.1vw;
+}
