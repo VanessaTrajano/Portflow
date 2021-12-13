@@ -40,7 +40,7 @@ main{
     width: 98.7vw;
     height: 40vw;
     position: relative;
-    background-image: url("/img/laranja-azul.png");
+    background-image: url("./img/laranja-azul.png");
     background-repeat: no-repeat;
     background-size: 100vw 40vw;
 }
