@@ -16,17 +16,25 @@ header{
     z-index: 1;
     background-color: #fff;
 }
+.menu{
+    display: none;
+}
 h1{
     font-weight: 900;
     font-size: 2.5vw;
 }
 nav ul{
-    width: 35vw;
+    width: 40vw;
     height: 1.5vw;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     font-size: 1.3vw;
+}
+nav li{
+    text-align: center;
+    width: 7vw;
+    height: 1.5vw;
 }
 nav ul li:hover{
     font-weight: 900;
@@ -101,4 +109,92 @@ footer{
 }
 .referencias p{
     font-size: 1.1vw;
+}
+.button{
+    display: none;
+}
+@media (max-width: 426px){
+    header{
+        height: 10vw;
+        padding: 0;
+        padding-right: 40vw;
+    }
+    .menu{
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 30%;
+    }
+    .menu img{
+        width: 20%;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    nav{
+        display:none;
+    }
+    .blue-orange{
+        height:125vw;
+        background-image: url("./img/laranja-azul_media.png");
+        background-size: 100vw 125vw;
+    }
+    .blue-orange h2{
+        font-size: 12vw;
+        top: 65vw;
+    }
+    .blue-orange p{
+        font-size: 5vw;
+        top: 113vw;
+    }
+    .fotinhas{
+        height: 880vw;
+    }
+    .fotinhas img{
+        width: 70vw;
+        height: 70vw;
+    }
+    footer{
+      flex-direction: column;
+      height: 25vw;
+    }
+    .redes-sociais{
+        height: 50%;
+        width: 70%;
+        background-color: #7FDBD4;
+    }
+    .redes-sociais img{
+        height: 4vw;
+        width: 4vw;
+    }
+    .referencias{
+        margin-top: 2vw;
+        display: flex;
+        width:90%;
+        justify-content:space-evenly;
+    }
+    .referencias h2{
+        font-size: 2.5vw;
+    }
+    .referencias p{
+        font-size: 1.7vw;
+    }
+    .copyright{
+        width:50%;
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 8vw;
+        width: 15vw;
+        background-color: #333333;
+        font-size: 3vw;
+    }
+    .button a{
+        text-decoration: none;
+        color: #CCCCCC;
+    }
 }
